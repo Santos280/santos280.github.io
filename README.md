@@ -75,8 +75,8 @@ Every Year I keep a goal to learn a new calisthenics skill. My main area of focu
 
 ## Cycling
 Cycling has always been a hobby since I was a kid. I would usually go on weekends on trails with my friends. My greatest achievemet was covering the city of Mysore,India via the outer ring road.
-<img src="/Pictures/Hobbies/Strava_mysore_city_ride.jpg" width="200" height="200">
-<!--![Strava Pic](/Pictures/Hobbies/Strava_mysore_city_ride.jpg)-->
+<!--<img src="/Pictures/Hobbies/Strava_mysore_city_ride.jpg" width="200" height="200">-->
+![Strava Pic](/Pictures/Hobbies/Strava_mysore_city_ride.jpg)
 
 # Contact
 ![G-mail](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAV1BMVEVHcEzZUUXXd2/z9PTeU0fZbmbo5+f0+vrx8vLbQjPaSz7WTkHotLHBOyzDTkPAOCjhhX7ZeHHEo6DqzMrFxcS8cGrae3Ti4uLMdm/p6urQ1NS8OSrl5eWBeqqfAAAAHXRSTlMAc5qd//z//////6Pxof3//+n////y6P/z//9ysazRhhoAAADtSURBVHgB1ZJXgoMwDERTXEUH7wo5uf85Y4mOyQEyCXXevC9uP5L74/klj7v0SmljXRZrtAcmCqWULzPClt4DFDOgIEmyeUrFQM0ES85zgEYAqGtgonUzYp3Mfd3MAHQ9OwAGIewgNYS/FfjHMC4S61rpx4A7gDD0MEkG4B76iDRugEEMQXuWeFDgdYhoTgCG2INYeJ76DEhEksA0R5MbmIi99zxHk+I2oJsAjDEGnvPekMsMTMiF97Qz+MWAfJ33RDlgnKNZQFcAOWJC/FdAaoWQPgcM1zNBR+DFgHTLfwe85KMsHu/LPCrufyEfyewjNsxN1fgAAAAASUVORK5CYII=) [shubhamsantosh99@gmail.com](shubhamsantosh99@gmail.com) 
