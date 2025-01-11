@@ -58,7 +58,7 @@ I have a keen interest in embedded programming and have experience working with 
    Our results show that the Simple Neural Network, trained with the Adam optimizer and the ReLU activation function, has obtained the best accuracy at 98%.
 
 ## **3. ECEN-602 Machine Problem: SBCP Message Broadcast using Socket Programming(Team of 2)**
-   ### [GitHub Link](https://github.com/shubham1384-tamu/ECEN602-MP2-SBCP_message_broadcast)
+### [GitHub Link](https://github.com/shubham1384-tamu/ECEN602-MP2-SBCP_message_broadcast)
 
    Developed an application that allows multiple clients to communicate with each other using a common server that accepts and broadcasts messages in SBCP format.
 
@@ -71,7 +71,9 @@ I have a keen interest in embedded programming and have experience working with 
 ## Calisthenics
 Every Year I keep a goal to learn a new calisthenics skill. My main area of focus is dynamic movements and my recent interest has been towards the handstand progression.
 
-### My recent Progression: L-sit to Handstand
+### My current progression: L-sit to Handstand
+###### click image to view
+[![L-sit to Handstand](https://img.youtube.com/vi/fkqn8uQjJRE/2.jpg)](https://www.youtube.com/watch?v=fkqn8uQjJRE)
 
 ## Cycling
 Cycling has always been a hobby since I was a kid. I would usually go on weekends on trails with my friends. My greatest achievemet was covering the city of Mysore,India via the outer ring road.
