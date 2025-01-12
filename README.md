@@ -53,7 +53,7 @@ I have a keen interest in embedded programming and have experience working with 
    
    Predictive maintenance is a proactive approach aimed at minimizing financial losses and operational disruptions in large industries through addressing unplanned equipment failures, particularly motor failures such as bearing breakdowns.
 
-   Our work goes one step further and compares different neural network architectures trained on the multiclass classification dataset using different optimization methods and activation functions. Specifically, we compared the performances of Simple, Medium, and Deep Neural Networks combined with three renowned optimizers—Stochastic Gradient Descent (SGD), Adam, and RMSprop—adding the most used activation functions: ReLU, Tanh, and Sigmoid.
+   This project aims at comparing different neural network architectures trained on the multiclass classification dataset using different optimization methods and activation functions. Specifically, the performances of Simple, Medium, and Deep Neural Networks are compared and combined with three renowned optimizers—Stochastic Gradient Descent (SGD), Adam, and RMSprop—adding the most used activation functions: ReLU, Tanh, and Sigmoid.
 
    Our results show that the Simple Neural Network, trained with the Adam optimizer and the ReLU activation function, has obtained the best accuracy at 98%.
 
@@ -78,7 +78,7 @@ Every Year I keep a goal to learn a new calisthenics skill. My main area of focu
 
 ## Cycling
 Cycling has always been a hobby since I was a kid. I would usually go on weekends on trails with my friends. My greatest achievemet was covering the city of Mysore,India via the outer ring road.
-<!--<img src="/Pictures/Hobbies/Strava_mysore_city_ride.jpg" width="200" height="200">-->
+
 ![Strava Pic](/Pictures/Hobbies/Strava_mysore_city_ride.jpg)
 
 # Contact
