@@ -1,6 +1,6 @@
 
 
-# About me
+## About me
 <img src="https://hackster.imgix.net/uploads/attachments/1808948/_qCTycVeITh.blob?auto=compress%2Cformat&w=200&h=200&fit=min&dpr=2" width="200" height="200">
 
 
@@ -45,7 +45,7 @@ I have a keen interest in embedded programming and have experience working with 
 
    Developed a RNN model for wake word detection that captures an image when the user speaks 'raspi' into the microphone. 
    
-   The live inferncing on the Raspberry Pi is done using INMP441 MEMS microphone interfaced using SPI protocol. Audio acquisition is done using sounddevice module and feature extraction is done through librosa. Raspberry Pi Camera module 3 is used for capturing 640x480 resolution images.
+   The live inferncing on the Raspberry Pi is done using INMP441 MEMS microphone interfaced using SPI protocol. Raspberry Pi Camera module 3 is used for capturing 640x480 resolution images.
 
    Necessary optimizations are performed for the audio sampling rate, feature size and the RNN layers for a faster response on the Raspberry Pi.
 
