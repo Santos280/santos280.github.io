@@ -1,9 +1,7 @@
 
-
-
+## About me
 <img src="https://hackster.imgix.net/uploads/attachments/1808948/_qCTycVeITh.blob?auto=compress%2Cformat&w=200&h=200&fit=min&dpr=2" width="200" height="200">
 
-# About Me
 
 My name is Shubham Santosh and I am a Computer Engineering graduate student at Texas A&M University, specializing in Embedded Software/Firmware with a focus on Computer Vision (CV) and Machine Learning (ML).
 
