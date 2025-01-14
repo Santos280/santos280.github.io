@@ -11,7 +11,7 @@ I have a keen interest in embedded programming and have experience working with 
  ![L&T Technology Services](https://www.ltts.com/themes/custom/ltts_revamp/logo.svg)
 
 #### Duration: 3 Years (June 2021 - June 2024)
-#### Location: Karnaraka, India
+#### Location: Karnataka, India
 
 #### Job roles:
 
