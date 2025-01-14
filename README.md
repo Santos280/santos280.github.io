@@ -1,5 +1,5 @@
 
-## About me
+# About me
 <!--<img src="https://hackster.imgix.net/uploads/attachments/1808948/_qCTycVeITh.blob?auto=compress%2Cformat&w=200&h=200&fit=min&dpr=2" width="200" height="200">-->
 
 
@@ -82,6 +82,7 @@ Cycling has always been a hobby since I was a kid. I would usually go on weekend
 
 ![Strava Pic](/Pictures/Hobbies/Strava_mysore_city_ride.jpg)
 
+<!--
 # Contact
 ![G-mail](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAV1BMVEVHcEzZUUXXd2/z9PTeU0fZbmbo5+f0+vrx8vLbQjPaSz7WTkHotLHBOyzDTkPAOCjhhX7ZeHHEo6DqzMrFxcS8cGrae3Ti4uLMdm/p6urQ1NS8OSrl5eWBeqqfAAAAHXRSTlMAc5qd//z//////6Pxof3//+n////y6P/z//9ysazRhhoAAADtSURBVHgB1ZJXgoMwDERTXEUH7wo5uf85Y4mOyQEyCXXevC9uP5L74/klj7v0SmljXRZrtAcmCqWULzPClt4DFDOgIEmyeUrFQM0ES85zgEYAqGtgonUzYp3Mfd3MAHQ9OwAGIewgNYS/FfjHMC4S61rpx4A7gDD0MEkG4B76iDRugEEMQXuWeFDgdYhoTgCG2INYeJ76DEhEksA0R5MbmIi99zxHk+I2oJsAjDEGnvPekMsMTMiF97Qz+MWAfJ33RDlgnKNZQFcAOWJC/FdAaoWQPgcM1zNBR+DFgHTLfwe85KMsHu/LPCrufyEfyewjNsxN1fgAAAAASUVORK5CYII=) [shubhamsantosh99@gmail.com](shubhamsantosh99@gmail.com) 
 
@@ -90,3 +91,4 @@ Cycling has always been a hobby since I was a kid. I would usually go on weekend
 
 ![Hackster Logo](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAUVBMVEUUrfcTrfcAqvc9uPgpsvim3Pzc8v7///99zfqa1/t3y/qEz/vQ7P2S1Ptlxfn2/f+M0vsxtfhRv/lgwvlIu/gAqffF6P2i2vxwyfrr9/6+5f25NSgHAAAAt0lEQVR4AbyRRRLEMAwE5THIDjP9/6GrZCGc4/a1a4T0N9SDA7S5SCwRbR17HGsBs0Vg5ggHp+NkDiA9S2Q5c3EtpV5ZViVdScDUIblONsHlLBStYOq6NpuSPqRFJzLprdD3tqHVAmg9bzhOG2/lIOWhtn0/JCK7YG1Bq13maKV+ysI4Fc2hbLqskidFowC6kFQ2ZbkWPCQL5jzDjfRJrEmdZRCp5nbnss7q9eU7lCmB1/CmK3oBACTpCPqGfR2gAAAAAElFTkSuQmCC)
 [Embedded Project portfolio](https://www.hackster.io/shubhamsantosh99)
+-->
