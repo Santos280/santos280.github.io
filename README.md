@@ -1,4 +1,4 @@
-<div class="container">
+
 # About me
 <!--<img src="https://hackster.imgix.net/uploads/attachments/1808948/_qCTycVeITh.blob?auto=compress%2Cformat&w=200&h=200&fit=min&dpr=2" width="200" height="200">-->
 
@@ -8,11 +8,11 @@ I am an Embedded Software Engineer with 3+ years of experience across automotive
 I enjoy solving problems at the intersection of hardware and software—whether developing kernel modules for memory-mapped I/O, or automating complex ECU validation workflows. I’m currently pursuing a Master’s in Computer Engineering at Texas A&M University and actively seeking full-time roles in embedded software and firmware engineering.
 
 # Work Experience
-## ![ASML](https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/ASML_Holding_N.V._logo.svg/1280px-ASML_Holding_N.V._logo.svg.png)
+## ![ASML](https://brandlogovector.com/wp-content/uploads/2021/06/ASML-Logo-Small.png)
 
-#### NI-LabVIEW Programmer Intern 
-#### Duration: 6 Months (May 2025 - Nov 2025)
-#### Location: San Diego, California
+### NI-LabVIEW Programmer Intern 
+**May 2025 - Nov 2025**\
+**Location: San Diego, California**
 
   - Developed Laser Log parsing scheme using JKI state machine architecture, invoked as a DQMH clone in main application.
   - Approached with an improved algorithm which achieved 10x faster execution by reducing the execution time from 11.9 seconds to 0.91 seconds.
@@ -26,10 +26,8 @@ parallel, improving performance while preventing cross-task interference.
  
 ## ![L&T Technology Services](https://www.ltts.com/themes/custom/ltts_revamp/logo.svg)
 
-#### Duration: 3 Years (June 2021 - June 2024)
-#### Location: Karnataka, India
-
-#### Job roles:
+**June 2021 - June 2024**\
+**Location: Karnataka, India**
 
 - **Embedded Verification & Validation Engineer** : *Oct 2022 to June 2024*
   - Worked on HIL testing of automotive ECU's.
@@ -108,4 +106,3 @@ Cycling has always been a hobby since I was a kid. I would usually go on weekend
 ![Hackster Logo](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAUVBMVEUUrfcTrfcAqvc9uPgpsvim3Pzc8v7///99zfqa1/t3y/qEz/vQ7P2S1Ptlxfn2/f+M0vsxtfhRv/lgwvlIu/gAqffF6P2i2vxwyfrr9/6+5f25NSgHAAAAt0lEQVR4AbyRRRLEMAwE5THIDjP9/6GrZCGc4/a1a4T0N9SDA7S5SCwRbR17HGsBs0Vg5ggHp+NkDiA9S2Q5c3EtpV5ZViVdScDUIblONsHlLBStYOq6NpuSPqRFJzLprdD3tqHVAmg9bzhOG2/lIOWhtn0/JCK7YG1Bq13maKV+ysI4Fc2hbLqskidFowC6kFQ2ZbkWPCQL5jzDjfRJrEmdZRCp5nbnss7q9eU7lCmB1/CmK3oBACTpCPqGfR2gAAAAAElFTkSuQmCC)
 [Embedded Project portfolio](https://www.hackster.io/shubhamsantosh99)
 -->
-</div>
