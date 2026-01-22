@@ -3,12 +3,28 @@
 <!--<img src="https://hackster.imgix.net/uploads/attachments/1808948/_qCTycVeITh.blob?auto=compress%2Cformat&w=200&h=200&fit=min&dpr=2" width="200" height="200">-->
 
 
-My name is Shubham Santosh and I am a Computer Engineering graduate student at Texas A&M University, specializing in Embedded Software/Firmware with a focus on Computer Vision (CV) and Machine Learning (ML).
+I am an Embedded Software Engineer with 3+ years of experience across automotive and semiconductor domains, specializing in embedded Linux, kernel development, and real-time systems. My background includes building custom CAN FD acquisition tools, low-level device drivers, and high-throughput data pipelines on platforms ranging from STM32 and NI-PXI to full embedded Linux systems.
 
-I have a keen interest in embedded programming and have experience working with microcontrollers such as Atmega328, STM32, and RP2040, with strong proficiency in embedded C. I am currently exploring embedded Machine Learning, enabling ML capabilities to edge devices.
+I enjoy solving problems at the intersection of hardware and software—whether developing kernel modules for memory-mapped I/O, or automating complex ECU validation workflows. I’m currently pursuing a Master’s in Computer Engineering at Texas A&M University and actively seeking full-time roles in embedded software and firmware engineering.
 
 # Work Experience
- ![L&T Technology Services](https://www.ltts.com/themes/custom/ltts_revamp/logo.svg)
+## ![ASML](https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/ASML_Holding_N.V._logo.svg/1280px-ASML_Holding_N.V._logo.svg.png)
+
+#### NI-LabVIEW Programmer Intern 
+#### Duration: 6 Months (May 2025 - Nov 2025)
+#### Location: San Diego, California
+
+  - Developed Laser Log parsing scheme using JKI state machine architecture, invoked as a DQMH clone in main application.
+  - Approached with an improved algorithm which achieved 10x faster execution by reducing the execution time from 11.9 seconds to 0.91 seconds.
+  - Built a scalable, concurrent log parsing pipeline using isolated execution contexts to process multiple log formats in
+parallel, improving performance while preventing cross-task interference.
+  - Redesigned LabVIEW code that performs Fast Fourier Transform analysis of raw data files with capabilities of scalability and reducing in execution time by 12%.
+  - Completed LabVIEW core-1,2 and 3 course and achieved the **Certified LabVIEW Associate Developer (CLAD)** certification.
+
+ 
+
+ 
+## ![L&T Technology Services](https://www.ltts.com/themes/custom/ltts_revamp/logo.svg)
 
 #### Duration: 3 Years (June 2021 - June 2024)
 #### Location: Karnataka, India
