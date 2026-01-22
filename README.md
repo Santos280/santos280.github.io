@@ -1,4 +1,4 @@
-
+<div class="container">
 # About me
 <!--<img src="https://hackster.imgix.net/uploads/attachments/1808948/_qCTycVeITh.blob?auto=compress%2Cformat&w=200&h=200&fit=min&dpr=2" width="200" height="200">-->
 
@@ -108,3 +108,4 @@ Cycling has always been a hobby since I was a kid. I would usually go on weekend
 ![Hackster Logo](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAUVBMVEUUrfcTrfcAqvc9uPgpsvim3Pzc8v7///99zfqa1/t3y/qEz/vQ7P2S1Ptlxfn2/f+M0vsxtfhRv/lgwvlIu/gAqffF6P2i2vxwyfrr9/6+5f25NSgHAAAAt0lEQVR4AbyRRRLEMAwE5THIDjP9/6GrZCGc4/a1a4T0N9SDA7S5SCwRbR17HGsBs0Vg5ggHp+NkDiA9S2Q5c3EtpV5ZViVdScDUIblONsHlLBStYOq6NpuSPqRFJzLprdD3tqHVAmg9bzhOG2/lIOWhtn0/JCK7YG1Bq13maKV+ysI4Fc2hbLqskidFowC6kFQ2ZbkWPCQL5jzDjfRJrEmdZRCp5nbnss7q9eU7lCmB1/CmK3oBACTpCPqGfR2gAAAAAElFTkSuQmCC)
 [Embedded Project portfolio](https://www.hackster.io/shubhamsantosh99)
 -->
+</div>
