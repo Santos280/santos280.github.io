@@ -96,8 +96,9 @@ Every Year I keep a goal to learn a new calisthenics skill. My main area of focu
 
 ### My current progression: L-sit to Handstand
 ###### click image to view
-[![L-sit to Handstand](https://img.youtube.com/vi/fkqn8uQjJRE/2.jpg)](https://www.youtube.com/watch?v=fkqn8uQjJRE)
-
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10573923507" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
+<!--[![L-sit to Handstand](https://img.youtube.com/vi/fkqn8uQjJRE/2.jpg)](https://www.youtube.com/watch?v=fkqn8uQjJRE)
+-->
 ## Cycling
 Cycling has always been a hobby since I was a kid. I would usually go on weekends on trails with my friends. My greatest achievemet was covering the city of Mysore,India via the outer ring road.
 
