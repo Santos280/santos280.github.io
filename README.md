@@ -8,7 +8,7 @@ I am an Embedded Software Engineer with 3+ years of experience across automotive
 I enjoy solving problems at the intersection of hardware and software—whether developing kernel modules for memory-mapped I/O, or automating complex ECU validation workflows. I’m currently pursuing a Master’s in Computer Engineering at Texas A&M University and actively seeking full-time roles in embedded software and firmware engineering.
 
 # Work Experience
-## <img src="![image-url](https://upload.wikimedia.org/wikipedia/en/6/6c/ASML_Holding_N.V._logo.svg)" alt="ASML" width="200" height="100">
+## <img src="https://upload.wikimedia.org/wikipedia/en/6/6c/ASML_Holding_N.V._logo.svg" alt="ASML" width="100" height="60">
 
 ### NI-LabVIEW Programmer Intern 
 **May 2025 - Nov 2025**\
@@ -51,8 +51,14 @@ parallel, improving performance while preventing cross-task interference.
 
 
 # My Projects
-### Check my project portfolio on [Hackster.io](https://www.hackster.io/shubhamsantosh99)
 ## **1. Wake word detection on Raspberry Pi:**
+### [Project link](https://www.hackster.io/shubhamsantosh99/linux-kernel-driver-on-raspberry-pi-c0a975)
+<img src="https://hackster.imgix.net/uploads/attachments/1920522/_wkvxwNVUAQ.blob?auto=compress%2Cformat&w=900&h=675&fit=min" width="300" height="200">
+<!--![project_cover_pic](https://hackster.imgix.net/uploads/attachments/1808181/_i0aaUeJIPP.blob?auto=compress%2Cformat&w=900&h=675&fit=min)-->
+
+   Developed a Linux kernel device driver for an MPU6050 IMU on Raspberry Pi using the I²C protocol, progressing from user-space drivers to a kernel-space implementation with the Industrial I/O (IIO) subsystem for buffered sensor streaming. Gained hands-on experience with device tree overlays, sysfs, and mainline Linux kernel source code.
+
+## **2. Wake word detection on Raspberry Pi:**
 ### [Project link](https://www.hackster.io/shubhamsantosh99/wake-word-detection-on-raspberry-pi-c99a42)
 <img src="https://hackster.imgix.net/uploads/attachments/1808181/_i0aaUeJIPP.blob?auto=compress%2Cformat&w=900&h=675&fit=min)" width="300" height="200">
 <!--![project_cover_pic](https://hackster.imgix.net/uploads/attachments/1808181/_i0aaUeJIPP.blob?auto=compress%2Cformat&w=900&h=675&fit=min)-->
@@ -63,7 +69,7 @@ parallel, improving performance while preventing cross-task interference.
 
    Necessary optimizations are performed for the audio sampling rate, feature size and the RNN layers for a faster response on the Raspberry Pi.
 
-## **2. ECEN 649(Pattern Recognion) Term project: Detection of Industrial Machine Failures using Supervised Learning Algorithms(Team of 2)**
+## **3. ECEN 649(Pattern Recognion) Term project: Detection of Industrial Machine Failures using Supervised Learning Algorithms(Team of 2)**
 
 ### [Project Report](https://drive.google.com/file/d/1i8vVw6WteHmv9AYTYrD_h9ytyVw0N6nX/view?usp=drive_link)
    
@@ -73,7 +79,7 @@ parallel, improving performance while preventing cross-task interference.
 
    Our results show that the Simple Neural Network, trained with the Adam optimizer and the ReLU activation function, has obtained the best accuracy at 98%.
 
-## **3. ECEN-602 Machine Problem: SBCP Message Broadcast using Socket Programming(Team of 2)**
+## **4. ECEN-602 Machine Problem: SBCP Message Broadcast using Socket Programming(Team of 2)**
 
 ### [GitHub Link](https://github.com/shubham1384-tamu/ECEN602-MP2-SBCP_message_broadcast)
 
@@ -97,6 +103,10 @@ Cycling has always been a hobby since I was a kid. I would usually go on weekend
 
 ![Strava Pic](/Pictures/Hobbies/Strava_mysore_city_ride.jpg)
 
+## Running
+My goal this year is to run 5K in under 30 minutes. I am still working on it. Below is my best effort
+
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="17001278797" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
 <!--
 # Contact
 ![G-mail](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAV1BMVEVHcEzZUUXXd2/z9PTeU0fZbmbo5+f0+vrx8vLbQjPaSz7WTkHotLHBOyzDTkPAOCjhhX7ZeHHEo6DqzMrFxcS8cGrae3Ti4uLMdm/p6urQ1NS8OSrl5eWBeqqfAAAAHXRSTlMAc5qd//z//////6Pxof3//+n////y6P/z//9ysazRhhoAAADtSURBVHgB1ZJXgoMwDERTXEUH7wo5uf85Y4mOyQEyCXXevC9uP5L74/klj7v0SmljXRZrtAcmCqWULzPClt4DFDOgIEmyeUrFQM0ES85zgEYAqGtgonUzYp3Mfd3MAHQ9OwAGIewgNYS/FfjHMC4S61rpx4A7gDD0MEkG4B76iDRugEEMQXuWeFDgdYhoTgCG2INYeJ76DEhEksA0R5MbmIi99zxHk+I2oJsAjDEGnvPekMsMTMiF97Qz+MWAfJ33RDlgnKNZQFcAOWJC/FdAaoWQPgcM1zNBR+DFgHTLfwe85KMsHu/LPCrufyEfyewjNsxN1fgAAAAASUVORK5CYII=) [shubhamsantosh99@gmail.com](shubhamsantosh99@gmail.com) 
