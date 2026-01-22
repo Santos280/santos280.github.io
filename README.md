@@ -96,13 +96,15 @@ Every Year I keep a goal to learn a new calisthenics skill. My main area of focu
 
 ### My current progression: L-sit to Handstand
 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10573923507" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
-<!--[![L-sit to Handstand](https://img.youtube.com/vi/fkqn8uQjJRE/2.jpg)](https://www.youtube.com/watch?v=fkqn8uQjJRE)
--->
+<br><br>
+
 ## Cycling
 Cycling has always been a hobby since I was a kid. I would usually go on weekends on trails with my friends. My greatest achievemet was covering the city of Mysore,India via the outer ring road.
 
 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10547398648" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
+
 <!--![Strava Pic](/Pictures/Hobbies/Strava_mysore_city_ride.jpg)-->
+<br><br>
 
 ## Running
 My goal this year is to run 5K in under 30 minutes. I am still working on it. Below is my best effort
