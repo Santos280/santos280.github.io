@@ -8,7 +8,7 @@ I am an Embedded Software Engineer with 3+ years of experience across automotive
 I enjoy solving problems at the intersection of hardware and software—whether developing kernel modules for memory-mapped I/O, or automating complex ECU validation workflows. I’m currently pursuing a Master’s in Computer Engineering at Texas A&M University and actively seeking full-time roles in embedded software and firmware engineering.
 
 # Work Experience
-## ![ASML](https://brandlogovector.com/wp-content/uploads/2021/06/ASML-Logo-Small.png)
+## <img src="![image-url](https://upload.wikimedia.org/wikipedia/en/6/6c/ASML_Holding_N.V._logo.svg)" alt="ASML" width="200" height="100">
 
 ### NI-LabVIEW Programmer Intern 
 **May 2025 - Nov 2025**\
@@ -20,6 +20,7 @@ I enjoy solving problems at the intersection of hardware and software—whether 
 parallel, improving performance while preventing cross-task interference.
   - Redesigned LabVIEW code that performs Fast Fourier Transform analysis of raw data files with capabilities of scalability and reducing in execution time by 12%.
   - Completed LabVIEW core-1,2 and 3 course and achieved the **Certified LabVIEW Associate Developer (CLAD)** certification.
+  <br><br><br>
 
  
 
