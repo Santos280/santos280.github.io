@@ -1,6 +1,6 @@
 
 # About me
-<!--<img src="https://hackster.imgix.net/uploads/attachments/1808948/_qCTycVeITh.blob?auto=compress%2Cformat&w=200&h=200&fit=min&dpr=2" width="200" height="200">-->
+<!--<img src="/Pictures/My Pic.JPG" width="200" height="200">-->
 
 
 I am an Embedded Software Engineer with 3+ years of experience across automotive and semiconductor domains, specializing in embedded Linux, kernel development, and real-time systems. My background includes building custom CAN FD acquisition tools, low-level device drivers, and high-throughput data pipelines on platforms ranging from STM32 and NI-PXI to full embedded Linux systems.
@@ -96,13 +96,13 @@ Every Year I keep a goal to learn a new calisthenics skill. My main area of focu
 
 ### My current progression: L-sit to Handstand
 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10573923507" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
-<br><br>
+<br>
 
 ## Cycling
 Cycling has always been a hobby since I was a kid. I would usually go on weekends on trails with my friends. My greatest achievemet was covering the city of Mysore,India via the outer ring road.
 
 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10547398648" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
-<br><br>
+<br>
 
 ## Running
 My goal this year is to run 5K in under 30 minutes. I am still working on it. Below is my best effort
