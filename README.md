@@ -51,7 +51,7 @@ parallel, improving performance while preventing cross-task interference.
 
 
 # My Projects
-## **1. Wake word detection on Raspberry Pi:**
+## **1. Linux Kernel Device Driver Development on Raspberry Pi:**
 ### [Project link](https://www.hackster.io/shubhamsantosh99/linux-kernel-driver-on-raspberry-pi-c0a975)
 <img src="https://hackster.imgix.net/uploads/attachments/1920522/_wkvxwNVUAQ.blob?auto=compress%2Cformat&w=900&h=675&fit=min" width="300" height="200">
 <!--![project_cover_pic](https://hackster.imgix.net/uploads/attachments/1808181/_i0aaUeJIPP.blob?auto=compress%2Cformat&w=900&h=675&fit=min)-->
