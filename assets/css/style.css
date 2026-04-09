@@ -1,0 +1,73 @@
+/* Import the theme's default styles */
+@import url("https://cdn.jsdelivr.net/gh/pages-themes/minimal@v0.2.0/assets/css/style.css");
+
+/* Animated gradient background */
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  background: linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab
+  );
+  background-size: 400% 400%;
+  animation: gradient-shift 15s ease infinite;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: Add a semi-transparent overlay to the wrapper for better readability */
+.wrapper {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+}
+
+/* Smooth transitions for links */
+a {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+a:hover {
+  transform: translateY(-2px);
+}
+
+/* Style the header section */
+header {
+  background: linear-gradient(135deg, rgba(238, 119, 82, 0.1), rgba(35, 165, 213, 0.1));
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Style footer links */
+#contact a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  body {
+    background-size: 300% 300%;
+  }
+
+  .wrapper {
+    margin: 10px;
+    border-radius: 4px;
+  }
+}
