@@ -54,5 +54,32 @@
     </div>
 
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+    <!-- Scroll-based SBC animation -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const contentWrapper = document.querySelector('main.content-wrapper');
+
+        window.addEventListener('scroll', function() {
+          if (!contentWrapper) return;
+
+          // Get scroll progress (0 to 1)
+          const scrollTop = window.scrollY;
+          const scrollMax = document.documentElement.scrollHeight - window.innerHeight;
+          const scrollProgress = scrollMax > 0 ? scrollTop / scrollMax : 0;
+
+          // Calculate rotation angles based on scroll
+          const rotateX = scrollProgress * 360;
+          const rotateY = Math.sin(scrollProgress * Math.PI * 2) * 30;
+          const rotateZ = Math.cos(scrollProgress * Math.PI) * 15;
+
+          // Apply transform to the SBC component (::after pseudo-element equivalent)
+          // We'll update the CSS variable for more flexibility
+          contentWrapper.style.setProperty('--scroll-x', rotateX + 'deg');
+          contentWrapper.style.setProperty('--scroll-y', rotateY + 'deg');
+          contentWrapper.style.setProperty('--scroll-z', rotateZ + 'deg');
+        });
+      });
+    </script>
   </body>
 </html>

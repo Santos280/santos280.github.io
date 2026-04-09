@@ -14,16 +14,38 @@
   }
 }
 
+/* Scroll-based transform animation */
+@keyframes sbc-morph {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg) scale(1);
+  }
+  25% {
+    transform: rotateX(10deg) rotateY(-15deg) scale(1.05);
+  }
+  50% {
+    transform: rotateX(20deg) rotateY(20deg) scale(0.95);
+  }
+  75% {
+    transform: rotateX(-10deg) rotateY(15deg) scale(1.02);
+  }
+  100% {
+    transform: rotateX(0deg) rotateY(0deg) scale(1);
+  }
+}
+
+@keyframes sbc-glow {
+  0%, 100% {
+    opacity: 0.3;
+    filter: drop-shadow(0 0 15px rgba(34, 197, 94, 0.3));
+  }
+  50% {
+    opacity: 0.6;
+    filter: drop-shadow(0 0 30px rgba(34, 197, 94, 0.6));
+  }
+}
+
 body {
-  background: linear-gradient(
-    -45deg,
-    #ee7752,
-    #e73c7e,
-    #23a6d5,
-    #23d5ab
-  );
-  background-size: 400% 400%;
-  animation: gradient-shift 15s ease infinite;
+  background: #f5f5f5;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -134,7 +156,6 @@ aside.sidebar .contact h3 {
   height: 20px;
 }
 
-/* Main content area */
 main.content-wrapper {
   margin-left: 300px;
   padding: 40px;
@@ -144,9 +165,12 @@ main.content-wrapper {
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
+  --scroll-x: 0deg;
+  --scroll-y: 0deg;
+  --scroll-z: 0deg;
 }
 
-/* Microchip background animation */
+/* Single Board Computer background animation */
 @keyframes rotate-chip {
   from {
     transform: rotate(0deg);
@@ -190,8 +214,7 @@ main.content-wrapper::before {
   transform: translateY(-50%);
   width: 400px;
   height: 400px;
-  background:
-    radial-gradient(circle at 50% 50%, rgba(35, 213, 171, 0.15) 0%, rgba(238, 119, 82, 0.1) 100%);
+  background: radial-gradient(circle at 50% 50%, rgba(34, 197, 94, 0.08) 0%, rgba(34, 197, 94, 0.02) 100%);
   z-index: 1;
   pointer-events: none;
   opacity: 0.6;
@@ -203,16 +226,18 @@ main.content-wrapper::after {
   position: fixed;
   right: 80px;
   top: 50%;
-  transform: translateY(-50%);
-  width: 200px;
-  height: 200px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='chipGradient' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23ee7752;stop-opacity:0.8' /%3E%3Cstop offset='100%25' style='stop-color:%2323d5ab;stop-opacity:0.8' /%3E%3C/linearGradient%3E%3C/defs%3E%3C!-- Microchip body --%3E%3Crect x='50' y='50' width='100' height='100' rx='8' fill='url(%23chipGradient)' stroke='%23fff' stroke-width='2' opacity='0.7'/%3E%3C!-- Center dot --%3E%3Ccircle cx='100' cy='100' r='5' fill='%23fff' opacity='0.9'/%3E%3C!-- Pins left --%3E%3Cline x1='50' y1='70' x2='30' y2='70' stroke='%2323d5ab' stroke-width='3' opacity='0.7'/%3E%3Cline x1='50' y1='85' x2='20' y2='85' stroke='%23ee7752' stroke-width='3' opacity='0.7'/%3E%3Cline x1='50' y1='100' x2='25' y2='100' stroke='%2323d5ab' stroke-width='3' opacity='0.7'/%3E%3Cline x1='50' y1='115' x2='20' y2='115' stroke='%23ee7752' stroke-width='3' opacity='0.7'/%3E%3Cline x1='50' y1='130' x2='30' y2='130' stroke='%2323d5ab' stroke-width='3' opacity='0.7'/%3E%3C!-- Pins right --%3E%3Cline x1='150' y1='70' x2='170' y2='70' stroke='%2323d5ab' stroke-width='3' opacity='0.7'/%3E%3Cline x1='150' y1='85' x2='180' y2='85' stroke='%23ee7752' stroke-width='3' opacity='0.7'/%3E%3Cline x1='150' y1='100' x2='175' y2='100' stroke='%2323d5ab' stroke-width='3' opacity='0.7'/%3E%3Cline x1='150' y1='115' x2='180' y2='115' stroke='%23ee7752' stroke-width='3' opacity='0.7'/%3E%3Cline x1='150' y1='130' x2='170' y2='130' stroke='%2323d5ab' stroke-width='3' opacity='0.7'/%3E%3C!-- Pins top --%3E%3Cline x1='70' y1='50' x2='70' y2='25' stroke='%23ee7752' stroke-width='3' opacity='0.7'/%3E%3Cline x1='100' y1='50' x2='100' y2='20' stroke='%2323d5ab' stroke-width='3' opacity='0.7'/%3E%3Cline x1='130' y1='50' x2='130' y2='25' stroke='%23ee7752' stroke-width='3' opacity='0.7'/%3E%3C!-- Pins bottom --%3E%3Cline x1='70' y1='150' x2='70' y2='175' stroke='%2323d5ab' stroke-width='3' opacity='0.7'/%3E%3Cline x1='100' y1='150' x2='100' y2='180' stroke='%23ee7752' stroke-width='3' opacity='0.7'/%3E%3Cline x1='130' y1='150' x2='130' y2='175' stroke='%2323d5ab' stroke-width='3' opacity='0.7'/%3E%3C/svg%3E");
+  transform: translateY(-50%) rotateX(var(--scroll-x)) rotateY(var(--scroll-y)) rotateZ(var(--scroll-z));
+  width: 280px;
+  height: 180px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 180'%3E%3Cdefs%3E%3ClinearGradient id='boardGradient' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%2322c55e;stop-opacity:0.6' /%3E%3Cstop offset='100%25' style='stop-color:%2316a34a;stop-opacity:0.6' /%3E%3C/linearGradient%3E%3C/defs%3E%3C!-- PCB Board --%3E%3Crect x='20' y='20' width='240' height='140' rx='10' fill='url(%23boardGradient)' stroke='%2322c55e' stroke-width='2' opacity='0.8'/%3E%3C!-- Circuit traces --%3E%3Cpath d='M 60 50 L 120 50 L 120 100 L 180 100' stroke='%23bfdbfe' stroke-width='1.5' fill='none' opacity='0.6'/%3E%3Cpath d='M 200 60 L 240 60 L 240 120 L 60 120' stroke='%23bfdbfe' stroke-width='1.5' fill='none' opacity='0.6'/%3E%3C!-- Main Chip (CPU) --%3E%3Crect x='90' y='60' width='50' height='50' rx='3' fill='%23000' opacity='0.4'/%3E%3Ccircle cx='108' cy='78' r='3' fill='%23fbbf24' opacity='0.8'/%3E%3Ccircle cx='132' cy='78' r='3' fill='%23fbbf24' opacity='0.8'/%3E%3Ccircle cx='108' cy='92' r='3' fill='%23fbbf24' opacity='0.8'/%3E%3Ccircle cx='132' cy='92' r='3' fill='%23fbbf24' opacity='0.8'/%3E%3C!-- Memory --%3E%3Crect x='160' y='70' width='35' height='40' rx='2' fill='%23000' opacity='0.4'/%3E%3Ccircle cx='172' cy='80' r='2' fill='%2360a5fa' opacity='0.7'/%3E%3Ccircle cx='183' cy='80' r='2' fill='%2360a5fa' opacity='0.7'/%3E%3Ccircle cx='172' cy='95' r='2' fill='%2360a5fa' opacity='0.7'/%3E%3Ccircle cx='183' cy='95' r='2' fill='%2360a5fa' opacity='0.7'/%3E%3C!-- GPIO Pins --%3E%3Cg opacity='0.6'%3E%3Crect x='30' y='100' width='20' height='8' fill='%23fbbf24'/%3E%3Crect x='30' y='115' width='20' height='8' fill='%23fbbf24'/%3E%3Crect x='230' y='100' width='20' height='8' fill='%23fbbf24'/%3E%3Crect x='230' y='115' width='20' height='8' fill='%23fbbf24'/%3E%3C/g%3E%3C!-- USB Port --%3E%3Crect x='60' y='30' width='12' height='8' rx='1' fill='%23f97316' opacity='0.7'/%3E%3C!-- Power Indicator LED --%3E%3Ccircle cx='235' cy='45' r='3' fill='%23ef4444' opacity='0.8'/%3E%3C!-- Connectors/Contacts --%3E%3Cg opacity='0.5'%3E%3Ccircle cx='50' cy='50' r='2' fill='%23cbd5e1'/%3E%3Ccircle cx='70' cy='40' r='2' fill='%23cbd5e1'/%3E%3Ccircle cx='220' cy='50' r='2' fill='%23cbd5e1'/%3E%3C/g%3E%3C/svg%3E");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   z-index: 2;
   pointer-events: none;
-  animation: rotate-chip 20s linear infinite, pulse-glow 4s ease-in-out infinite, float-edges 6s ease-in-out infinite;
+  animation: sbc-glow 3s ease-in-out infinite;
+  perspective: 1000px;
+  transition: transform 0.05s ease-out;
 }
 
 /* Override theme header styles */
