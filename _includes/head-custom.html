@@ -1,0 +1,50 @@
+<style>
+  @keyframes gradient-shift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  body {
+    background: linear-gradient(
+      -45deg,
+      #ee7752,
+      #e73c7e,
+      #23a6d5,
+      #23d5ab
+    ) !important;
+    background-size: 400% 400% !important;
+    animation: gradient-shift 15s ease infinite !important;
+    min-height: 100vh !important;
+    margin: 0 !important;
+    padding: 20px !important;
+  }
+
+  .wrapper {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15) !important;
+    backdrop-filter: blur(4px) !important;
+    margin: auto !important;
+    max-width: 960px !important;
+  }
+
+  a {
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+
+  a:hover {
+    transform: translateY(-2px);
+  }
+
+  header {
+    background: linear-gradient(135deg, rgba(238, 119, 82, 0.08), rgba(35, 165, 213, 0.08)) !important;
+    border-radius: 8px !important;
+  }
+</style>
