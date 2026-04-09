@@ -1,50 +1,94 @@
 <style>
-  @keyframes gradient-shift {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  @keyframes wave1 {
+    0% { transform: translateX(0) translateY(0); }
+    50% { transform: translateX(100px) translateY(-20px); }
+    100% { transform: translateX(0) translateY(0); }
+  }
+
+  @keyframes wave2 {
+    0% { transform: translateX(0) translateY(0); }
+    50% { transform: translateX(-80px) translateY(15px); }
+    100% { transform: translateX(0) translateY(0); }
+  }
+
+  @keyframes wave3 {
+    0% { transform: translateX(0) translateY(0); }
+    50% { transform: translateX(60px) translateY(-10px); }
+    100% { transform: translateX(0) translateY(0); }
+  }
+
+  @keyframes float {
+    0% { opacity: 0.3; transform: translate(0, 0); }
+    50% { opacity: 0.6; }
+    100% { opacity: 0.3; transform: translate(0, -30px); }
+  }
+
+  @keyframes gradient-rotate {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
   }
 
   body {
-    background: linear-gradient(
-      -45deg,
-      #ee7752,
-      #e73c7e,
-      #23a6d5,
-      #23d5ab
-    ) !important;
+    background: linear-gradient(-45deg, #667eea, #764ba2, #f093fb, #4facfe) !important;
     background-size: 400% 400% !important;
-    animation: gradient-shift 15s ease infinite !important;
+    animation: gradient-rotate 15s ease infinite !important;
     min-height: 100vh !important;
     margin: 0 !important;
     padding: 20px !important;
+    position: relative !important;
+    overflow-x: hidden !important;
+  }
+
+  body::before,
+  body::after {
+    content: '' !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 200% !important;
+    height: 150px !important;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path d="M0,50 Q300,20 600,50 T1200,50 L1200,120 L0,120 Z" fill="%23ffffff" opacity="0.1"/></svg>') repeat-x !important;
+    animation: wave1 8s linear infinite !important;
+    z-index: 1 !important;
+  }
+
+  body::after {
+    bottom: 20px !important;
+    animation: wave2 10s linear infinite reverse !important;
+    opacity: 0.5 !important;
   }
 
   .wrapper {
-    background-color: rgba(255, 255, 255, 0.95) !important;
+    background-color: rgba(255, 255, 255, 0.97) !important;
     border-radius: 12px !important;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15) !important;
-    backdrop-filter: blur(4px) !important;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2) !important;
+    backdrop-filter: blur(10px) !important;
     margin: auto !important;
     max-width: 960px !important;
+    position: relative !important;
+    z-index: 10 !important;
   }
 
   a {
-    transition: transform 0.2s ease, color 0.2s ease;
+    transition: transform 0.3s ease, color 0.3s ease;
   }
 
   a:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
   }
 
   header {
-    background: linear-gradient(135deg, rgba(238, 119, 82, 0.08), rgba(35, 165, 213, 0.08)) !important;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.08), rgba(240, 147, 251, 0.08)) !important;
     border-radius: 8px !important;
+    animation: float 6s ease-in-out infinite !important;
+  }
+
+  img {
+    animation: float 7s ease-in-out infinite !important;
+  }
+
+  section {
+    animation: float 8s ease-in-out infinite !important;
   }
 </style>
